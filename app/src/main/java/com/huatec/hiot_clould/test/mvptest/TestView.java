@@ -1,5 +1,8 @@
 package com.huatec.hiot_clould.test.mvptest;
 
-public interface TestView {
+import com.huatec.hiot_clould.base.BaseView;
+
+public interface TestView extends BaseView {
+
     void showMessage(String msg);
 }

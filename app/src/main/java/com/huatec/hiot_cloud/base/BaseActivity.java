@@ -82,4 +82,6 @@ public abstract class BaseActivity<V extends BaseView, P extends BasePresenter> 
     protected ActivityModule getActivityModule() {
         return new ActivityModule(this);
     }
+
+
 }
